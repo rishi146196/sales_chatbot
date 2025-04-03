@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlite3
+requests
+pydantic
+os
+langchain_huggingface
+streamlit
+gunicorn
