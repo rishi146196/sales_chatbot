@@ -27,7 +27,9 @@ if st.button("Ask Chatbot"):
             st.session_state.chat_history.append(("🤖 Chatbot", bot_response))
 
             # Clear input box after submission
-            st.rerun()
+            
+            # Clear input by resetting query
+            query = ""
 
 
         else:
